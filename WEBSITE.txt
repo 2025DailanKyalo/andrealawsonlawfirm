@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Andrea Lawson Law Firm</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+      color: #222;
+      background-color: #f7f7f7;
+    }
+
+    header {
+      background-color: #1f2937;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    nav {
+      margin-top: 1rem;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    .section {
+      background-color: white;
+      border-radius: 10px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    .section img {
+      width: 100%;
+      height: auto;
+      margin-top: 1rem;
+      border-radius: 8px;
+    }
+
+    footer {
+      background-color: #1f2937;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    @media screen and (max-width: 768px) {
+      nav a {
+        display: block;
+        margin: 0.5rem 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Andrea Lawson Law Firm</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section id="home" class="section">
+      <h2>Welcome to Andrea Lawson Law Firm</h2>
+      <p>Providing clear, professional legal guidance with integrity and excellence. Whether you're facing a personal legal issue or require corporate legal services, we're here to help you achieve peace of mind and strong representation.</p>
+      <img src="Screenshot 2025-07-20 220803.png" alt="Legal consultation image">
+    </section>
+
+    <section id="about" class="section">
+      <h2>About Us</h2>
+      <p>Andrea Lawson Law Firm is a modern legal practice committed to serving individuals, families, and businesses. Founded on principles of trust, clarity, and compassion, we work diligently to ensure every client feels heard and empowered. Our team brings years of experience across various legal sectors, ensuring quality legal counsel tailored to your needs.</p>
+      <img src="Screenshot 2025-07-20 220845.png" alt="Law discussion image">
+    </section>
+
+    <section id="services" class="section">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Family Law – Divorce, Custody & Support</li>
+        <li>Estate Planning – Wills, Trusts & Probate</li>
+        <li>Business Law – Contracts, Entity Formation & Disputes</li>
+        <li>Real Estate Law – Transactions & Disputes</li>
+        <li>Litigation – Civil Representation</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Andrea Lawson Law Firm. All rights reserved.</p>
+  </footer>
+</body>
+</html>
