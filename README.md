@@ -1,2 +1,2 @@
 # andrealawsonlawfirm
-LAW SERVICES
+LEGAL SERVICES
